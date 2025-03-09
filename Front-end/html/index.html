@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/Front-end/img/fulllogo_transparent_nobuffer.png">
+    <link rel="stylesheet" href="/Front-end/css/style.css">
+    <title>AUTOMATEC</title>
+</head>
+<body>
+    <img src="/Front-end/img/fulllogo_transparent_nobuffer.png" alt="Logotipo AUTOMATEC-" width="180px">
+
+    <div class="container">
+        <h1>Controladores</h1> <!-- Centraliza o título -->
+        
+        <!-- Descrição e Display Câmera Congelado -->
+        <div>
+            <div class="sensor-label">Câmara Congelado</div>
+            <div class="sensor-box" id="sensor1">--.- °C</div>
+        </div>
+
+        <!-- Descrição e Display Câmera Resfriado -->
+        <div>
+            <div class="sensor-label">Câmara Resfriado</div>
+            <div class="sensor-box" id="sensor2">--.- °C</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1> Controle de Pressão / Temperatura</h1>
+        
+        <div class="sensor-box-container">
+            <div class="sensor-box">
+                <div id="sensorDescarga">--.- PSI</div>
+                <div class="sensor-label sensor-label-descarga"> Descarga</div>    
+            </div>
+
+            <div class="sensor-box">
+                <div id="sensorLiquido">--.- PSI</div>
+                <div class="sensor-label sensor-label-liquido"> Liquido</div>
+            </div>
+
+            <div class="sensor-box">
+                <div id="sensorSucao">--.- PSI</div>
+                <div class="sensor-label sensor-label-sucçao">Sucção</div>
+            </div>
+
+            <div class="sensor-box">
+                <div id="sensorDescarga">--.- °C</div>
+                <div class="sensor-label sensor-label-descarga">Sensor Descarga</div>    
+            </div>
+
+            <div class="sensor-box">
+                <div id="sensorDescarga">--.- °C</div>
+                <div class="sensor-label sensor-label-descarga">Sensor Liquido</div>    
+            </div>
+        
+            <div class="sensor-box">
+                <div id="sensorDescarga">--.- °C</div>
+                <div class="sensor-label sensor-label-descarga">Sensor Sucção</div>    
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© Protocolo IAN 2025</p>
+    </footer>
+    
+    <script src="/Front-end/js/index.js"></script>
+</body>
+</html>

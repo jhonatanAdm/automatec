@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/Front-end/img/fulllogo_transparent_nobuffer.png">
+    <link rel="stylesheet" href="/Front-end/css/stylee.css">
+    <title>Cadastro - AUTOMATEC</title>
+</head>
+<body>
+
+    <header>
+        <img src="/Front-end/img/fulllogo_transparent_nobuffer.png" alt="Logotipo AUTOMATEC" class="logo" width="180px">
+    </header>
+
+    <!-- Formulário de Cadastro -->
+    <div class="login-container">
+        <h2>Cadastro</h2>
+        <div class="input-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" placeholder="Digite seu nome" required>
+        </div>
+        <div class="input-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="Digite seu e-mail" required>
+        </div>
+        <div class="input-group">
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="Digite sua senha" required>
+        </div>
+        <button class="login-btn" onclick="cadastrar()">Cadastrar</button>
+
+        <p class="signup-link">Já tem uma conta? <br> <a href="#">Fazer login</a></p>
+    </div>
+
+    <footer>
+        <p>© Protocolo IAN 2025</p>
+    </footer>
+
+    <script src="/Front-end/js/casdastro.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo do corpo da página */
+body {
+    background-image: url(/Front-end/img/cyber-3400789_1920.jpg);
+    background-color: #f4f4f4;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    overflow-x: hidden; /* Evita rolagem horizontal */
+    padding-top: 80px; /* Adiciona espaçamento no topo para evitar sobreposição com a logo */
+
+}
+
+/* Centralizar título "Monitor de Pressão" */
+h1 {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px; /* Ajusta o espaçamento superior */
+}
+
+/* Estilo do cabeçalho */
+header {
+    position: absolute; /* Posiciona a logo de forma absoluta em relação à tela */
+    left: 0; /* Coloca a logo no canto esquerdo */
+    top: 20px; /* Ajusta a distância da logo do topo da tela */
+    padding: 0 20px; /* Ajusta a margem esquerda da logo */
+    z-index: 10; /* Garante que a logo fique acima de outros elementos */
+}
+
+/* Logo */
+header img {
+    max-width: 150px; /* Define o tamanho máximo da logo, ajustando conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+
+/* Estilo do contêiner dos sensores */
+.container {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: auto;
+    padding: 20px; /* Reduzido o padding */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 55%; /* Reduzido a largura para 60% */
+    margin-top: 20px; /* Ajuste do espaçamento superior */
+    margin-bottom: 50px; /* Espaço para garantir que o conteúdo não fique embaixo do rodapé */
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens que não couberem quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 15px; /* Reduziu o espaçamento entre os sensores */
+}
+
+
+/* Estilo do contêiner dos boxes de sensores */
+.sensor-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que os elementos que não couberem quebrem para a próxima linha */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Estilo dos boxes de sensores */
+.sensor-box {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    color: rgb(215, 222, 222);
+    font-size: 32px;
+    font-family: 'DSEG7 Modern', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; /* Adiciona espaçamento inferior para alinhar corretamente em diferentes linhas */
+    flex-direction: column; /* Faz com que o conteúdo do sensor fique empilhado verticalmente */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: rgba(51, 51, 51, 0.9);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+footer p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* Estilo para as legendas de cada sensor */
+.sensor-label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px; /* Espaçamento para as legendas abaixo dos displays */
+    color: #fff;
+}
+
+/* Estilo para as legendas de cada sensor */
+.sensor-label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px; /* Espaçamento para as legendas abaixo dos displays */
+    color: #fff;
+}
+
+/* Estilos específicos para as legendas */
+.sensor-label-descarga {
+    font-size: 15px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.sensor-label-liquido {
+    font-size: 15px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+/* Corrigindo a legenda da Linha Sucção */
+.sensor-label-sucçao {
+    font-size: 15px;  /* Ajustado para o mesmo tamanho das outras legendas */
+    color: #fff;
+    margin-top: 10px;
+}
+
+

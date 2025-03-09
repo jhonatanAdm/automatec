@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo do corpo da página */
+body {
+    background-image: url(/Front-end/img/cyber-3400789_1920.jpg);
+    background-color: #f4f4f4;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Fundo fixo */
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    overflow-x: hidden; /* Evita rolagem horizontal */
+    padding-top: 90px;
+    padding-bottom: 100px;
+    overflow-y: auto; /* Habilita a rolagem vertical */
+}
+
+/* Estilo da logo */
+.logo {
+    display: block; /* Garante que a imagem se comporte como um bloco */
+    margin-left: auto; /* Afasta a logo mais para a esquerda */
+    margin-top: 10px; /* Sobe a logo um pouco (ajuste conforme necessário) */
+    max-width: 150px; /* Reduz o tamanho da logo */
+}
+
+header img {
+    max-width: 150px; /* Define o tamanho máximo da logo */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: rgba(51, 51, 51, 0.9);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+footer p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* Estilo do formulário de login */
+.form-container, .login-container {
+    background-color: rgba(20, 20, 20, 0.85); /* Um tom bem escuro com transparência */
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 60px;
+    width: 320px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Borda mais visível */
+    max-height: 80vh; /* Limita a altura do formulário */
+    overflow-y: auto; /* Habilita rolagem dentro do formulário */
+}
+
+/* Se o conteúdo for maior que a altura da tela, permite a rolagem */
+.login-container {
+    max-width: 400px; /* Ajuste o tamanho para caber melhor na tela */
+    margin-top: 20px;
+}
+
+/* Estilo dos campos de entrada */
+.input-group {
+    margin-bottom: 15px;
+    width: 100%; /* Garante que os campos ocupem 100% da largura do contêiner */
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+}
+
+/* Campos de entrada transparentes */
+.input-group input {
+    width: 100%; /* Garante que os campos ocupem 100% da largura do contêiner */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.6); /* Borda leve para os campos */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo transparente */
+    color: #fff; /* Cor do texto */
+}
+
+.input-group input:focus {
+    outline: none;
+    border: 2px solid #007BFF;
+}
+
+/* Botão de login */
+.login-btn, .signup-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover, .signup-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para o link de cadastro */
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.signup-link a {
+    color: #007BFF; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline; /* Sublinha o link quando o mouse passa por cima */
+}
+
+/* Estilo comum para os formulários de login e cadastro */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+button {
+    width: 25%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background:#0b6fda;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signup-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo comum para os formulários de login e cadastro */
+.form-container, #login-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro com transparência */
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 60px;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.8); /* Borda preta mais escura */
+}  
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: 20px; /* Adiciona um espaçamento entre as colunas */
+}
+
+.status, .alerts, .controls {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 20px; /* Adiciona um espaço entre as divs */
+}
+
+.value {
+    font-weight: bold;
+}
+
+.alert {
+    color: red;
+    font-weight: bold;
+}
+
+button.control-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button.control-btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
