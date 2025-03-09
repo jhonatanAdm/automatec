@@ -14,3 +14,7 @@ function cadastrar() {
         alert("Preencha todos os campos!");
     }
 }
+import app from "./firebase.js";
+
+// Aqui você pode adicionar funções de autenticação, banco de dados, etc.
+console.log("Firebase carregado no cadastro");

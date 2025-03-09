@@ -51,3 +51,8 @@ function checkLoginStatus() {
 
 // Chama a função checkLoginStatus ao carregar a página
 window.onload = checkLoginStatus;
+
+import app from "./firebase.js";
+
+console.log("Firebase conectado:", app);
+
